@@ -31,5 +31,6 @@ for (let i = 0; i < biciDaCorsa.length; i++){
   }
 }
 // 4. stampo in console il peso della bici più leggera
+let {nome} = biciDaCorsaLeggera
 let {peso} = biciDaCorsaLeggera;
-console.log(` Il peso della bici più leggera è: ${peso}  `);
+console.log(` Il peso della bici più leggera è la ${nome} che pesa: ${peso}  `);
